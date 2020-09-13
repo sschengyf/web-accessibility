@@ -125,7 +125,7 @@ Enable users (human, robot, everyone) to access to the web resources (website, w
 | Focus state      | Indicate whether the element is being focused                |
 | Pressed state    | Indicate whether the element is being pressed                |
 | Disabled state   | Indicate whether the element is being disabled               |
-| Keyboard support | Allowe `Space`, `Enter` keys to be pressed to activate the button |
+| Keyboard support | Allow `Space`, `Enter` keys to be pressed to activate the button |
 
 [Fake button example](./examples/button.html)
 
