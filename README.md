@@ -28,7 +28,7 @@ marp: true
 
 ## What is it
 
-> When someone describes a _site_ as "accessible," they mean that _any user_ can use all its _features_ and _content_, regardless of _how_ the user accesses the web — even and especially users with physical or mental impairments.
+> When someone describes a `site` as "accessible," they mean that `any user` can use all its `features` and `content`, regardless of `how` the user accesses the web — even and especially users with physical or mental impairments.
 
 Enable users (human, robot, everyone) to access to the web resources (website, webapp, everything) in their approaches.
 
@@ -128,6 +128,21 @@ Enable users (human, robot, everyone) to access to the web resources (website, w
 | Keyboard support | Allow `Space`, `Enter` keys to be pressed to activate the button |
 
 [Fake button example](./examples/button.html)
+
+---
+
+### Table
+
+> Data tables are used to organize data with a `logical relationship` in grids.
+
+[Table concepts](https://www.w3.org/WAI/tutorials/tables/)
+
+The data context is more important than data to users.
+
+- Captions
+- Scoping rows and columns
+
+[Table example](./examples/table.html)
 
 ---
 
