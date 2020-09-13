@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <title>Fake Buttons</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  </head>
+  <body>
+    <section class="mb-4">
+      <h2>Genuine button</h2>
+
+      <p>This is a simple button</p>
+      <button type="button" class="btn btn-primary" onclick="alert('BOOM!!')">Trigger an alert</button>
+
+      <p>This is a disabled button</p>
+      <button type="button" class="btn btn-primary" onclick="alert('BOOM!!')" disabled="disabled">Trigger an alert</button>
+    </section>
+
+    <section class="mb-4">
+      <h2>Fake buttons</h2>
+
+      <p>This button uses a <code>div</code> element</p>
+      <div class="btn btn-primary" onclick="alert('BOOM!!')">
+        Trigger an alert by fake button
+      </div>
+
+      <p>This button uses an <code>a</code> element</p>
+      <a class="btn btn-primary" onclick="alert('BOOM!!')">
+        Trigger an alert by fake button
+      </a>
+
+    </section>
+
+    <section class="mb-4">
+      <h2>Enhanced fake buttons</h2>
+
+      <p>This button uses a <code>div</code> element</p>
+      <div class="btn btn-primary" role="button" tabindex="0" onclick="alert('BOOM!!')" disabled="disabled">
+        Trigger an alert by a better fake button
+      </div>
+
+      <p>This button uses an <code>a</code> element</p>
+      <a class="btn btn-primary" role="button" tabindex="0" onclick="alert('BOOM!!')">
+        Trigger an alert by a better fake button
+      </a>
+
+    </section>
+
+    <script>
+        const fakeButtons = document.querySelectorAll('[role=button]');
+
+        fakeButtons.forEach(function(button) {
+          addHandler(button);
+        });
+
+        function addHandler(button) {
+          button.onkeydown = function(e) {
+            // The Enter/Return and Space key
+            const codes = ['Enter', 'Space'];
+            if(codes.includes(e.code)) {
+              document.activeElement.onclick(e);
+            }
+          }
+        }
+    </script>
+  </body>
+</html>
