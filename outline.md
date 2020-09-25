@@ -39,6 +39,7 @@
 - Achieve a balance between the invest and return
 - Persist in it as long as the lifespan of the application's development
 - Work closely with other stakeholders
+- Audit by 3rd part
 
 ### Recap
 
