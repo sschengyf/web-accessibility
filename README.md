@@ -6,7 +6,7 @@ marp: true
 
 ## Ivan Cheng
 
-### 28/09/2020
+### 02/10/2020
 
 ---
 
@@ -143,6 +143,17 @@ The data context is more important than data to users.
 - Scoping rows and columns
 
 [Table example](./examples/table.html)
+
+---
+
+### The most compatible but the most abusing tags
+
+`div`
+
+> The HTML Content Division element (<div>) is the generic container for flow content. It has no effect on the content or layout until styled using CSS.
+
+`span`
+> The HTML <span> element is a generic inline container for phrasing content, which does not inherently represent anything.
 
 ---
 
