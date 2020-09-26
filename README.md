@@ -14,7 +14,7 @@ marp: true
 
 ---
 
-## Stereotypes
+### Stereotypes
 
 - a11y is for the impairments
 - a11y is nice to have
@@ -26,7 +26,7 @@ marp: true
 
 ---
 
-## What is it
+### What is it
 
 > When someone describes a `site` as "accessible," they mean that `any user` can use all its `features` and `content`, regardless of `how` the user accesses the web — even and especially users with physical or mental impairments.
 
@@ -34,7 +34,7 @@ Enable users (human, robot, everyone) to access to the web resources (website, w
 
 ---
 
-## Why does it matter
+### Why does it matter
 
 - For users, rights
 - For society, better usage of resources
@@ -44,7 +44,7 @@ Enable users (human, robot, everyone) to access to the web resources (website, w
 
 ---
 
-## What needs to be taken into account
+### What needs to be taken into account
 
 - Users (visual impairments, hearing impairments, mobility impairments, cognitive impairments, culture, knowledge, other backgrounds)
 - Devices (mobile, desktop, keyboard, screen reader, printer)
@@ -55,7 +55,7 @@ Enable users (human, robot, everyone) to access to the web resources (website, w
 
 ---
 
-## WCAG (Web Content Accessibility Guideline) Four Principles
+### WCAG (Web Content Accessibility Guideline) Four Principles
 
 1. Perceivable - Information and user interface components must be presentable to users in ways they can perceive.
    - This means that users must be able to perceive the information being presented (it can't be invisible to all of their senses)
@@ -81,10 +81,10 @@ Enable users (human, robot, everyone) to access to the web resources (website, w
 
 ---
 
-## Recap
+### Recap
 
 - a11y brings huge value to all aspects
-- a11y is a systematic job
+- a11y is a systematic consideration
 - a11y makes us think from different angles
 
 ---
@@ -106,8 +106,8 @@ Enable users (human, robot, everyone) to access to the web resources (website, w
 
 - Built-in accessibility (keyboard, screen reader recognition)
 - Naturally and widely supported by browsers
-- Easy to understand
-- Common sense
+- Self-explanatory element name
+- Consistent behaviors match most users mental model
 - Less code
 - Good for SEO
 
@@ -149,12 +149,23 @@ The data context is more important than data to users.
 
 ### The most compatible but the most being abused tags
 
-`div`
+- div
 
-> The HTML Content Division element (<div>) is the generic container for flow content. It has no effect on the content or layout until styled using CSS.
+  > The HTML Content Division element (<div>) is the generic container for flow content.
 
-`span`
-> The HTML <span> element is a generic inline container for phrasing content, which does not inherently represent anything.
+- span
+
+  > The HTML <span> element is a generic inline container for phrasing content, which does not inherently represent anything.
+
+They should be used only when no other semantic element is appropriate. <span> is very much like a <div> element, but <div> is a block-level element whereas a <span> is an inline element.
+
+---
+
+### Recap
+
+- Use semantic element as many as possible
+- Semantic HTML is beneficial to all aspects of web
+- Avoid reinventing the HTML element
 
 ---
 
@@ -167,6 +178,7 @@ The data context is more important than data to users.
 ## References
 
 - [MDN Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility)
+- [HTML elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 - [8-Step Implementation Model](https://webaim.org/articles/implementation/)
 - [WAI-ARIA](https://www.w3.org/TR/wai-aria-1.1/)
 - [WAI-ARIA Practice 1.1](https://www.w3.org/TR/wai-aria-practices-1.1/)
