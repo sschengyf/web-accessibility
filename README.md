@@ -94,6 +94,7 @@ Enable users (human, robot, everyone) to access to the web resources (website, w
 - HTML
 - CSS
 - JavaScript
+- WAI-ARIA (Accessible Rich Internet Applications)
 
 ---
 
@@ -146,7 +147,7 @@ The data context is more important than data to users.
 
 ---
 
-### The most compatible but the most abusing tags
+### The most compatible but the most being abused tags
 
 `div`
 
@@ -154,6 +155,12 @@ The data context is more important than data to users.
 
 `span`
 > The HTML <span> element is a generic inline container for phrasing content, which does not inherently represent anything.
+
+---
+
+## WAI-ARIA
+
+> No ARIA is better than Bad ARIA
 
 ---
 
