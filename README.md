@@ -38,7 +38,7 @@ Enable users (human, robot, everyone) to access to the web resources (website, w
 
 - For users, rights
 - For society, better usage of resources
-- For site owners, more users
+- For site owners, more users, better reputation
 - Not only for others, but also for us
 - And more
 
@@ -205,7 +205,26 @@ CSS is a way to apply visual effects to reflect component's state for people wit
 
 ### No ARIA is better than Bad ARIA
 
-Go to [WAI-ARIA Practice 1.1](https://www.w3.org/TR/wai-aria-practices-1.1/) to know more.
+Go to [WAI-ARIA Practices 1.1](https://www.w3.org/TR/wai-aria-practices-1.1/) to know more.
+
+---
+
+## Approach suggestions
+
+- Do it earlier than late before aggregating too much technical debts, ideally since the beginning.
+- Frame up a plan within the team, define the scope, allocate the responsibilities to roles.
+- Do qualitative and quantitative research for your website.
+- Achieve a reasonable return on investment.
+- Persist in it as long as the lifespan of the application's development.
+- Treat it as an important part of the software quality.
+- Work closely with other stakeholders (design, marketing, testing, product team).
+- Invite 3rd part auditing.
+
+---
+
+## W3C vs WAI vs WAI-WCAG vs WAI-ARIA vs WAI-ARIA Practices
+
+## 😕🥴🤯
 
 ---
 
