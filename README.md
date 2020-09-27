@@ -51,7 +51,7 @@ Enable users (human, robot, everyone) to access to the web resources (website, w
 - Visual design (color contrast, typography)
 - User interactions (keyboard, error handling, state change)
 - Content (text, image, video, sound)
-- Audit (test)
+- Audit (test, robust, integrity)
 
 ---
 
@@ -95,6 +95,7 @@ Enable users (human, robot, everyone) to access to the web resources (website, w
 - CSS
 - JavaScript
 - WAI-ARIA (Accessible Rich Internet Applications)
+- Automation
 
 ---
 
@@ -169,9 +170,42 @@ They should be used only when no other semantic element is appropriate. <span> i
 
 ---
 
-## WAI-ARIA
+## CSS
 
-> No ARIA is better than Bad ARIA
+> It is possible to use CSS to make any HTML element look like anything, but this doesn't mean that you should.
+
+The main goal of CSS is to help user find the content as well as the actions they are looking for quickly other than just looking pretty.
+
+- Sematic content structure
+- Typography
+- Color and color contrast
+- Nonvisual renderer (e.g. screen reader, browser reader mode)
+
+---
+
+## JavaScript
+
+> Keeping it unobtrusive.
+
+JavaScript shall be used to enhance functionality, ideally the basic functions should work without JavaScript.
+
+- Keyboard accessibility
+- Input validation
+- Web component's WAI-ARIA state change reflection
+
+---
+
+## WAI-ARIA (Web Accessibility Initiative - Accessible Rich Internet Applications)
+
+> ARIA enables developers to describe their widgets in more detail by adding special attributes to the markup. Designed to fill the gap between standard HTML tags and the desktop-style controls found in dynamic web applications, ARIA provides roles and states that describe the behavior of most familiar UI widgets.
+
+CSS is a way to apply visual effects to reflect component's state for people with normal vision, likewise, ARIA is a way to apply non-visual effects for the persons use assistive technologies.
+
+---
+
+### No ARIA is better than Bad ARIA
+
+Go to [WAI-ARIA Practice 1.1](https://www.w3.org/TR/wai-aria-practices-1.1/) to know more.
 
 ---
 
@@ -179,8 +213,9 @@ They should be used only when no other semantic element is appropriate. <span> i
 
 - [MDN Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility)
 - [HTML elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+- [Best practices of CSS and JavaScript for accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScript)
 - [8-Step Implementation Model](https://webaim.org/articles/implementation/)
 - [WAI-ARIA](https://www.w3.org/TR/wai-aria-1.1/)
-- [WAI-ARIA Practice 1.1](https://www.w3.org/TR/wai-aria-practices-1.1/)
 - [WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/Overview.html)
 - [WCAG 2.0 guidelines](https://www.w3.org/WAI/GL/WCAG20/)
+- [How to Meet WCAG](https://www.w3.org/WAI/WCAG21/quickref/?currentsidebar=%23col_customize&levels=a%2Caaa&showtechniques=124%2C125%2C245)
