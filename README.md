@@ -152,13 +152,13 @@ The data context is more important than data to users.
 
 - div
 
-  > The HTML Content Division element (<div>) is the generic container for flow content.
+  > The HTML Content Division element (`<div>`) is the generic container for flow content.
 
 - span
 
-  > The HTML <span> element is a generic inline container for phrasing content, which does not inherently represent anything.
+  > The HTML `<span>` element is a generic inline container for phrasing content, which does not inherently represent anything.
 
-They should be used only when no other semantic element is appropriate. <span> is very much like a <div> element, but <div> is a block-level element whereas a <span> is an inline element.
+They should be used only when no other semantic element is appropriate. `<span>` is very much like a `<div>` element, but `<div>` is a block-level element whereas a `<span>` is an inline element.
 
 ---
 
