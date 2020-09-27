@@ -2,7 +2,7 @@
 marp: true
 ---
 
-# Web Accessibility (a11y)
+# Web Accessibility (A11y)
 
 ## Ivan Cheng
 
@@ -16,13 +16,13 @@ marp: true
 
 ### Stereotypes
 
-- a11y is for the impairments
-- a11y is nice to have
-- a11y only matters to big corporates
-- a11y is the last thing in todo list
-- a11y can be addressed as an ad-hoc feature if we want
-- a11y is just to enable the `tab` key navigation
-- a11y is too complicated to do
+- A11y is for the impairments
+- A11y is nice to have
+- A11y only matters to big corporates
+- A11y is the last thing in todo list
+- A11y can be addressed as an ad-hoc feature if we want
+- A11y is just to enable the `tab` key navigation
+- A11y is too complicated to do
 
 ---
 
@@ -83,9 +83,9 @@ Enable users (human, robot, everyone) to access to the web resources (website, w
 
 ### Recap
 
-- a11y brings huge value to all aspects
-- a11y is a systematic consideration
-- a11y makes us think from different angles
+- A11y brings huge value to all aspects
+- A11y is a systematic consideration
+- A11y makes us think from different angles
 
 ---
 
@@ -209,6 +209,27 @@ Go to [WAI-ARIA Practices 1.1](https://www.w3.org/TR/wai-aria-practices-1.1/) to
 
 ---
 
+## Automation
+
+Onboarding accessibility auditing tools provides accessibility test coverage somewhere in the region of 30% to 80%.
+
+- Static code scanning against HTML element (image alternative text, etc).
+- Rendered page accessibility audit (color contrast, ARIA roles, etc).
+- Unit test for custom web component (keyboard support, etc).
+- E2E test (stimulate user's keyboard interactions, etc).
+
+---
+
+### Automation auditing tools
+
+- [Google lighthouse](https://github.com/GoogleChrome/lighthouse-ci)
+- [aXe](https://github.com/dequelabs/axe-core)
+- [jest-axe](https://github.com/nickcolley/jest-axe)
+- [codelyzer](https://github.com/mgechev/codelyzer)
+- [Pa11y](https://github.com/pa11y/pa11y)
+
+---
+
 ## Approach suggestions
 
 - Do it earlier than late before aggregating too much technical debts, ideally since the beginning.
@@ -224,7 +245,23 @@ Go to [WAI-ARIA Practices 1.1](https://www.w3.org/TR/wai-aria-practices-1.1/) to
 
 ## W3C vs WAI vs WAI-WCAG vs WAI-ARIA vs WAI-ARIA Practices
 
-## 😕🥴🤯
+## 😕🥴🤯🤓
+
+---
+
+## Laws and policies
+
+- Section 508 of the Rehabilitation Act (a procurement standard for federal agencies that also applies to content created by federal agencies)
+- Section 504 of the Rehabilitation Act (which applies to—among others—institutions of higher education that accept federal funds)
+- Title II of the American with Disabilities Act (which applies to state and local governments)
+- Title III of the American with Disabilities Act (which applies to public accommodations and commercial facilities)
+- Web Accessibility Standard 1.1 (All public service and non-public service agencies must meet the NZ Government Web Accessibility Standard from 1 July 2019.)
+
+---
+
+## The End 🙌
+
+### Thanks!
 
 ---
 
