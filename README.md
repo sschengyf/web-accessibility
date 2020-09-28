@@ -221,7 +221,7 @@ Onboarding accessibility auditing tools provides accessibility test coverage som
 - Static code scanning against HTML element (image alternative text, etc).
 - Rendered page accessibility audit (color contrast, ARIA roles, etc).
 - Unit test for custom web component (keyboard support, etc).
-- E2E test (stimulate user's keyboard interactions, etc).
+- E2E test (simulate user's keyboard interactions, etc).
 
 ---
 
