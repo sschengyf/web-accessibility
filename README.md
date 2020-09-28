@@ -1,5 +1,8 @@
 ---
 marp: true
+theme: default
+class:
+  - invert
 ---
 
 # Web Accessibility (A11y)
@@ -11,6 +14,8 @@ marp: true
 ---
 
 ## Accessibility and Web accessibility
+
+Broadly speaking, accessibility does exist everywhere in our lives, web accessibility is a subset of it.
 
 ---
 
