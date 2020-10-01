@@ -19,15 +19,13 @@ Broadly speaking, accessibility does exist everywhere in our lives, web accessib
 
 ---
 
-### Stereotypes
+### Why does it matter
 
-- A11y is for the impairments
-- A11y is nice to have
-- A11y only matters to big corporates
-- A11y is the last thing in todo list
-- A11y can be addressed as an ad-hoc feature if we want
-- A11y is just to enable the `tab` key navigation
-- A11y is too complicated to do
+- For users, rights
+- For society, better usage of resources
+- For site owners, more users, better reputation
+- For developers, comprehensive skill set
+- Not only for others, but also for ourselves
 
 ---
 
@@ -36,16 +34,6 @@ Broadly speaking, accessibility does exist everywhere in our lives, web accessib
 > When someone describes a `site` as "accessible," they mean that `any user` can use all its `features` and `content`, regardless of `how` the user accesses the web — even and especially users with physical or mental impairments.
 
 Enable users (human, robot, everyone) to access to the web resources (website, webapp, everything) in their approaches.
-
----
-
-### Why does it matter
-
-- For users, rights
-- For society, better usage of resources
-- For site owners, more users, better reputation
-- Not only for others, but also for us
-- And more
 
 ---
 
@@ -82,7 +70,18 @@ Enable users (human, robot, everyone) to access to the web resources (website, w
 4. Robust - Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies.
     - This means that users must be able to access the content as technologies advance (as technologies and user agents evolve, the content should remain accessible)
 
-      e.g. continuous auditing
+      e.g. continuous compatibility
+
+---
+
+### Stereotypes
+
+- A11y is for the impairments
+- A11y is nice to have
+- A11y only matters to big corporates
+- A11y is the last thing in todo list
+- A11y can be addressed as an ad-hoc feature if we want
+- A11y is too complicated to do
 
 ---
 
