@@ -237,6 +237,7 @@ Onboarding accessibility auditing tools provides accessibility test coverage som
 ## Approach suggestions
 
 - Do it earlier than late before aggregating too much technical debts, ideally since the beginning.
+- Don't wait for everything is ready, We learn as we go.
 - Frame up a plan within the team, define the scope, allocate the responsibilities to roles.
 - Do qualitative and quantitative research for your website.
 - Achieve a reasonable return on investment.
