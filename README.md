@@ -7,10 +7,6 @@ class:
 
 # Web Accessibility (A11y)
 
-## Ivan Cheng
-
-### 02/10/2020
-
 ---
 
 ## Accessibility and Web accessibility
@@ -264,9 +260,7 @@ Onboarding accessibility auditing tools provides accessibility test coverage som
 
 ---
 
-## The End 🙌
-
-### Thanks!
+## Feel free to raise issue and PR.
 
 ---
 
